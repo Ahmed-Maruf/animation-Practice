@@ -1,0 +1,104 @@
+
+.cell{
+    margin:2.5em auto 5em;
+    max-width: 50em;
+}
+
+.brand{
+    display: block;
+    text-align: center; 
+}
+
+.brand--top{
+    margin-bottom: 2.5em; 
+}
+
+.brand-img{
+    display: block;
+    margin:0 auto;
+}
+
+.tac{
+    text-align: center;
+}
+.tci{
+    
+    color: #fff;
+    
+}
+
+.card{
+    padding: 1.25em;
+    position: relative; /*confusing positioning always?????*/
+}
+
+.card--a{
+    background:#fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5); /*dont know much*/
+}
+.card--l {
+  padding: .25em;
+}
+
+.mbl{
+    margin-bottom: 2.5em;
+}
+
+.characterList{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1.25em;
+    padding:0;
+}
+
+.group::after{
+    clear: both;
+    content: '';
+    display: table;
+}/*dont know very much about ::after, display:table, clear:both*/
+
+.characterList-item{
+    display: block;
+    position: relative;
+    
+}
+
+.characterList-item:last-child {
+  padding-right: 0;
+}/*Why ???? */
+
+characterList-item img {
+  display: block;
+  margin: 0 auto 0.625em;
+  width: 40%;
+}/*why???*/
+
+.characterList-item-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.characterList-item--unicorn img, .characterList-item--rainbow img {
+    top: 30px;
+}/*Why????*/
+
+.btn {
+  background: #92539f;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1); /*why????*/
+  border-radius: 40px;
+  border: 0;
+  color: #faf6fa;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 3;
+  overflow: hidden;
+  padding: 0 2.5em;
+  position: relative;
+}
+
+.btn:active,.btn:focus,.btn:hover{
+    background: #73427d;
+    color: #fff;
+}
